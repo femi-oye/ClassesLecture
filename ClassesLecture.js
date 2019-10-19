@@ -36,3 +36,16 @@ addEmployee("Emmanuel", "Anthony", "Cook", "4501");
 
 //console log to print the result of employees created
 console.log(employeeDB);
+
+// Write another function to find a specific employee name. Print out the employee name + "works here" if true
+
+function findEmployee(employeeName){
+    for (let name of employeeDB) {
+        if (employeeName == name.fname) 
+            return employeeName + " works here"
+    }
+
+    return false
+}
+
+console.log(findEmployee("Gideon"))

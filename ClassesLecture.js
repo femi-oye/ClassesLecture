@@ -33,3 +33,6 @@ addEmployee("Joko", "Sule", "Bus Conductor", "0032");
 addEmployee("Gideon", "Joker", "Baby", "0518");
 addEmployee("Ade", "Owolabi", "Health", "9922");
 addEmployee("Emmanuel", "Anthony", "Cook", "4501");
+
+//console log to print the result of employees created
+console.log(employeeDB);

@@ -10,3 +10,6 @@ class Employee {
         this.department = department;
     }
 }
+
+// create an instance of the Employee Class
+femi = new Employee("Femi", "Oye", "salesforce", "1234")
